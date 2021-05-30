@@ -48,6 +48,16 @@
 						}
 					},
 					"end": "(?=;)"
+				},
+				{
+					"contentName": "comment.block.algol60",
+					"begin": "\\bend\\b",
+					"beginCaptures": {
+						"0": {
+							"name": "keyword.control.algol60"
+						}
+					},
+					"end": "(?=;|\\b(Boolean|array|else|end|integer|own|procedure|real|switch)\\b)"
 				}
 			]
 		},
